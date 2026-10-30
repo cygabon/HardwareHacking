@@ -1,0 +1,41 @@
+# Never publish device-specific material
+**/captures/
+**/dumps/
+**/extracted/
+**/private/
+**/secrets/
+**/factory-data/
+**/etc/config/
+**/etc/dropbear/
+**/etc/shadow
+**/etc/passwd
+
+# Firmware and flash images
+*.bin
+*.img
+*.ubi
+*.ubifs
+*.squashfs
+*.mtd
+*.dump
+*.backup
+*.cal
+*.eeprom
+
+# Captures and credentials
+*.log
+*.pcap*
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+authorized_keys
+
+# Local tooling
+__pycache__/
+*.py[cod]
+.DS_Store
+*.swp
+*~
